@@ -4,7 +4,7 @@ A modern, sleek, responsive web calculator built with a dark charcoal and rich o
 
 ## 🔗 Live Demo
 Check out the live website here: 
-👉 **[Azaf's Calculator Live Website](https://AzafTechnologies.github.io/Azaf.Calculator/)**
+👉 **[Azaf's Calculator Live Website](https://azaftechnologies.github.io/BasicCalculator/)**
 
 ---
 
