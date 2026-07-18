@@ -1,0 +1,108 @@
+/* General page and body styling (Dark Charcoal) */
+body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Inter', 'Arial', sans-serif; /* Modern font choice */
+}
+
+
+/* Calculator Frame (Near-Black with heavy rounded corners) */
+.calculator-frame {
+    width: 480px; /* Sightly narrower for a tighter feel */
+    background-color: #111;
+    padding: 30px;
+    border-radius: 25px; /* Heavy roundness matching design */
+    box-shadow: 0px 15px 35px rgba(0,0,0,0.4);
+}
+
+/* Updated Display Label (Solid rich orange, no border) */
+#display-label {
+    width: 100%;
+    height: 75px;
+    background-color: #FFA732; /* Warm orange */
+    border: none; /* Remove old border */
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 40px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+    margin-bottom: 25px; /* Sightly more spacing */
+    overflow-x: auto;
+}
+
+/* Updated Button Grid */
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4-column layout */
+    gap: 15px; /* Clean, tight spacing */
+}
+
+/* Global button reset and base styling */
+.btn {
+    height: 70px; /* Updated height for better proportion */
+    font-size: 28px;
+    border: none; /* Removed old border */
+    border-radius: 15px; /* High roundness matching design */
+    cursor: pointer;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.1s, opacity 0.1s;
+    outline: none;
+}
+
+/* Button interactions */
+.btn:active {
+    transform: scale(0.95);
+    opacity: 0.9;
+}
+
+/* Superscript styling */
+sup {
+    font-size: 60%;
+    vertical-align: super;
+}
+
+/* --- Color and Component Mapping --- */
+
+/* Number Buttons (Brown with white text) */
+.num-btn {
+    background-color: #4B2B1B;
+    color: white;
+}
+
+/* Special Function Buttons (Olive with white text) */
+.special-btn {
+    background-color: #665E51;
+    color: white;
+}
+
+/* Primary Operator Buttons Column (Terracotta orange) */
+.op-btn {
+    background-color: #FF9E4F;
+    color: white;
+}
+
+/* Equal Button (Complex orange-yellow gradient with black text) */
+.equal-btn {
+    background-color: #FF9900; /* Fallback color */
+    background-image: linear-gradient(135deg, #FF9900 0%, #FFC400 100%);
+    color: black;
+    font-weight: bold;
+}
+
+/* Clear Button (Near-Black with white text) */
+.clear-btn {
+    background-color: #111;
+    color: white;
+    font-size: 20px; /* Larger text for readability */
+    font-weight: bold;
+}
