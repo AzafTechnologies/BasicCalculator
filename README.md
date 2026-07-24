@@ -2,13 +2,13 @@
 
 A modern, sleek, responsive web calculator built with a dark charcoal and rich orange aesthetic. This project started its journey as a desktop application built in **Java Swing** and was completely migrated to modern web technologies (**HTML5, CSS3, and JavaScript**) to allow instant, cross-platform access right from any web browser.
 
-## 🔗 Live Demo
+## 🔗 Live Demo.
 Check out the website here: 
 👉 **[Azaf's Calculator Website](https://azaftechnologies.github.io/BasicCalculator/)**
 
 ---
 
-## 📸 Interface Preview
+## 📸 Interface Preview.
 
 Here is a look at the modern, rounded grid UI designed with an elegant, cohesive color system:
 
@@ -18,7 +18,7 @@ Here is a look at the modern, rounded grid UI designed with an elegant, cohesive
 
 ---
 
-## ✨ Features
+## ✨ Features.
 
 * **Core Arithmetic Operations:** High-precision addition (+), subtraction (-), multiplication (x), and division (/).
 * **Advanced Math Modifiers:** Instant execution for squaring ($x^2$), cubing ($x^3$), and modulus/remainder (%) operations.
@@ -28,7 +28,7 @@ Here is a look at the modern, rounded grid UI designed with an elegant, cohesive
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Built With.
 
 * **HTML5:** Handles structural configuration and standard superscript representations ($x^2, x^3$).
 * **CSS3:** Built using Grid layout systems, linear gradients, and responsive sizing.
