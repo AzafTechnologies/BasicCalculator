@@ -3,7 +3,7 @@
 A modern, sleek, responsive web calculator built with a dark charcoal and rich orange aesthetic. This project started its journey as a desktop application built in **Java Swing** and was completely migrated to modern web technologies (**HTML5, CSS3, and JavaScript**) to allow instant, cross-platform access right from any web browser.
 
 ## 🔗 Live Demo
-Check out the live website here: 
+Check out the website here: 
 👉 **[Azaf's Calculator Live Website](https://azaftechnologies.github.io/BasicCalculator/)**
 
 ---
